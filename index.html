@@ -23,8 +23,9 @@
     <section class="container">
         <div class="row">
             <div class="col-12">
-                <div id="root">
-                    <h1 :class="classeTitolo">{{ message }}</h1>
+                <div id="root" class="text-center">
+                    <h1 :class="mainTitle">{{ message }}</h1>
+                    <img :class="roundedClass" :src="mainImg" style="width: 1200px;" alt="Vue's framework image">
                 </div>
             </div>
         </div>
